@@ -1,0 +1,86 @@
+.btn-primary{
+    background-color: black !important;
+    border-color: white !important;
+}
+
+
+.gunnaface{
+    height: 50px; width: 50px;
+    border-radius: 50%;
+}
+
+
+/* Shop page  */
+.shopimages{
+    height: 200px; width: 150px;
+}
+
+.shopcontainer{
+    display: grid;
+    height: 100vh; width: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4px;
+}
+
+.buynow{
+    display: flex
+}
+
+.carousel {
+    margin-bottom: 50px;
+    
+}
+
+.banner {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.headerimg {
+    height: 900px;
+}
+/* Media queiries  */
+
+/* @media screen and (min-width: max-width:) {
+Mobile Devices – 320px — 480px.
+iPads and Tablets – 481px — 768px.
+Laptops and small screen – 769px — 1024px.
+Large screens and Desktops – 1025px — 1200px.
+TV and Extra Large Screens – 1201px and more.
+    
+} */
+@media screen and (max-width: 480px) {
+    .shopcontainer {
+        display: grid;
+        height: 100vh; width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 4px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shopcontainer {
+        display: grid;
+        height: 100vh; width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-rows: 1fr;
+        gap: 4px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .shopcontainer {
+        display: grid;
+        height: 100vh; width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 1fr;
+        gap: 4px;
+    }
+}
+
+
